@@ -19,5 +19,6 @@ object WordCount {
     }
     .reduceByKey(_ + _)
     .saveAsTextFile("food.count.txt")
+    //Something new
   }
 }
